@@ -8,18 +8,14 @@ class: middle, center, inverse
 ---
 class: middle
 
-# 발표자: 박진언
+## 발표자: 박진언
 
---
-
-## 관심사
+### 관심사
 * 재미있는 게임 만들기
 * 더 즐겁게 프로그래밍하기
 * 가벼운 팀 만들기
 
---
-
-## 경력
+### 경력
 * Maverick Games 프로그래머
 * (전) NCSoft B&S 개발실 서버 프로그래머
 * (전) 루비콘게임즈 서버 프로그래머
@@ -29,15 +25,24 @@ class: center, middle
 
 # Unit test
 
-## TDD(Test Driven Development)의 기법 중 하나
-## 특정 기능만 테스트하는 코드
+--
+
+### TDD(Test Driven Development)의 기법 중 하나
+
+--
+### 특정 기능만 테스트하는 코드
 
 ---
 class: center, middle
 
 # 주로 하는 질문
 
+--
+
 ## 왜 하는지 잘 모르겠다
+
+--
+
 ## 어떻게 하는지 잘 모르겠다
 
 ---
