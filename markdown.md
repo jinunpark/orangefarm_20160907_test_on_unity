@@ -23,6 +23,91 @@ class: middle
 ---
 class: center, middle
 
+# 게임 소개
+
+---
+class: center, middle
+
+# Fantasy Raiders
+.footnote[게임 소개]
+---
+class: middle
+
+# 보물 찾는 게임
+
+![보물 얻어서 도망가기](./images/game_introduce/player_lift_treasure_and_skel_chase.png)
+
+.footnote[게임 소개]
+---
+class: middle
+# 진영(Faction) 존재
+
+![서로 싸우는 중](./images/game_introduce/skel_cat_fighting.png)
+
+.footnote[게임 소개]
+---
+class: middle
+# 싸울 수도 있지만
+![고양이 도와주기](./images/game_introduce/player_supports_cat.png)
+
+.footnote[게임 소개]
+---
+class: middle
+# 이익만 챙기거나
+![싸우는 동안 상자 열기](./images/game_introduce/full_of_mess.png)
+
+.footnote[게임 소개]
+---
+class: middle
+# 폭발로 쓸어버리거나
+![폭발](./images/game_introduce/great_explode.png)
+
+.footnote[게임 소개]
+---
+class: middle
+# 같이 춤추거나
+![해골과](./images/game_introduce/dancing_with_skel.gif)
+![고양이와](./images/game_introduce/dancing_with_cat.gif)
+.footnote[게임 소개]
+---
+class: middle
+# 춤 추게 하고 슬쩍하거나
+![춤추는 해골들](./images/game_introduce/open_chest_skel_dancing.png)
+
+.footnote[게임 소개]
+---
+class: middle
+# 숨어 다닐 수 있습니다
+![숨기](./images/game_introduce/sneak_and_get_treasure.png)
+
+.footnote[게임 소개]
+---
+class: center, middle
+
+# 게임 특징
+--
+
+## 탐험 중심
+--
+
+## 오픈 월드
+--
+
+## 상황에 따른 사건 제시
+--
+
+## 역동적인 세계
+
+.footnote[게임 소개]
+---
+class: center, middle
+# 자세한 사항은 소개 영상에
+# [소개 영상](https://www.youtube.com/watch?v=dPyyHGSLou4)
+
+.footnote[게임 소개]
+---
+class: center, middle
+
 # Unit test
 
 --
@@ -51,6 +136,8 @@ class: center, middle
 class: middle
 
 # 왜?
+
+.side_img[![왜?](./images/why.gif)]
 
 .footnote[Unit Test]
 ---
@@ -92,8 +179,6 @@ class: middle
 
 ## 장점
 
---
-
 * 실패하는 문서
 * 문서가 코드
 
@@ -130,7 +215,7 @@ class: middle
     * 사건 2000개 이상
 --
 
-## -> ** 사람은 처음 나타나는 버그만 발견해야 한다 **
+### -> ** 사람은 처음 나타나는 버그만 발견해야 한다 **
 
 ---
 class: middle
@@ -194,6 +279,8 @@ class: middle
 
 --
 
+## 하지만
+
 * 일단 interface로 빼면 나중에 쪼개기 쉽다
 * Unit test를 만들어 두었다면 없을 때보다 refactoring하기 쉽다
 
@@ -207,9 +294,17 @@ class: middle
 --
 
 * 버그 재현 방법을 찾는다 **<- 제일 어려움**
+--
+
 * 버그 케이스에 대한 유닛 테스트를 추가한다
+--
+
 * 테스트가 통과할 때까지 수정한다
+--
+
 * Profit!
+
+.side_img[![신난다](./images/skel_joy.gif)]
 
 ---
 
@@ -310,11 +405,11 @@ class: middle
 
 --
 
-* 장점
+## 장점
   * 플랫폼 독립적임
   * 테스트 클라우드 사용 가능
 
-* 단점
+## 단점
   * 구현하기 어렵다
   * 스크린샷 찍는데 2초 걸림
 
