@@ -233,7 +233,8 @@ class: middle
 * 구조
   * 앱은 기기의 UI Automator에 연결
   * Appium은 USB를 통해 UI Automator를 조정
-* Unit test code를 쓰는 것과 같은 방식으로 돌아감
+* Cucumber를 사용해서 테스트
+  * Unit test code를 쓰는 것과 같은 방식으로 돌아감
 
 ---
 class: middle
@@ -337,9 +338,9 @@ class: middle
 ---
 class: center, middle
 
-# 감사합니다.
+# Q & A
 
 ---
 class: center, middle
 
-# Q & A
+# 감사합니다.
