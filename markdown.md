@@ -37,9 +37,11 @@ class: center, middle
 
 # 주로 하는 질문
 
+.footnote[Unit Test]
 --
 
 ## 왜 하는지 잘 모르겠다
+
 
 --
 
@@ -50,11 +52,13 @@ class: middle
 
 # 왜?
 
+.footnote[Unit Test]
 ---
 class: center, middle
 
 ## 테스트 커버리지 100% == 버그 없음
 
+.footnote[Unit Test]
 --
 
 ### 도망가세요. **사기꾼입니다.**
@@ -64,6 +68,7 @@ class: center, middle
 
 ## Test Code의 기능
 
+.footnote[Unit Test]
 --
 
 ### 문서화
@@ -77,6 +82,7 @@ class: middle
 
 ## 문서화
 
+.footnote[Unit Test]
 --
 
 * 코드를 사용하는 방법
@@ -96,6 +102,7 @@ class: middle
 
 ## 회귀 테스트
 
+.footnote[Unit Test]
 --
 
 * 코드를 변경해도 기능이 잘 동작하는지 지속적으로 테스트
@@ -108,6 +115,7 @@ class: middle
 
 ## 팀 상황
 
+.footnote[Unit Test]
 --
 
 * QA 전담 인력 없음
@@ -129,6 +137,7 @@ class: middle
 
 # 어떻게?
 
+.footnote[Unit Test]
 --
 
 * Unity3d의 component들은 모두 MonoBehavior 기반
@@ -139,6 +148,7 @@ class: middle
 
 ## 정석
 
+.footnote[Unit Test]
 --
 
 * 모든 component의 상속 규칙
@@ -152,6 +162,7 @@ class: middle
 
 ## 팀 상황
 
+.footnote[Unit Test]
 --
 
 * MonoBehavior 기반
@@ -163,6 +174,7 @@ class: middle
 
 ## 해결 방법
 
+.footnote[Unit Test]
 --
 
 * Quick'n Dirty
@@ -174,6 +186,7 @@ class: middle
 
 ## 코드에 redundancy가 늘어나지 않나?
 
+.footnote[Unit Test]
 --
 
 * 클래스에 method가 100개가 넘어요!
@@ -190,6 +203,7 @@ class: middle
 
 ## 버그가 생기면
 
+.footnote[Unit Test]
 --
 
 * 버그 재현 방법을 찾는다 **<- 제일 어려움**
@@ -212,6 +226,7 @@ class: middle
 
 # 정석
 
+.footnote[기기 테스트]
 --
 
 * [Appium](http://appium.io/)
@@ -225,6 +240,7 @@ class: middle
 
 # 문제
 
+.footnote[기기 테스트]
 --
 
 * 프로그래머가 아닌 사람이 보기 힘들다
@@ -235,6 +251,7 @@ class: middle
 
 # 해결책
 
+.footnote[기기 테스트]
 --
 
 * [SpecFlow](http://www.specflow.org/)
@@ -246,6 +263,7 @@ class: middle
 
 # Appium 문제
 
+.footnote[기기 테스트]
 --
 
 * Unity3d는 UI 구조를 UI automator에게 전달해 주지 않는다
@@ -256,6 +274,7 @@ class: middle
 
 # 해결 방법들
 
+.footnote[기기 테스트]
 --
 
 * [Image Recognition](http://testdroid.com/tech/appium-tip-22-how-to-deploy-image-recognition-in-your-appium-tests)
@@ -277,13 +296,9 @@ class: middle
 ---
 class: middle
 
-# 뾰족한 해결 방법이 없는데...
+# 실험중인 방법
 
----
-class: middle
-
-# 현재까지 결론
-
+.footnote[기기 테스트]
 --
 
 * Image Recognition을 이용해서 화면에 정보를 띄우자!
